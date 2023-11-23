@@ -1,6 +1,5 @@
 import 'package:bneventos_app/tabspages/eventoagregartabpage_page.dart';
 import 'package:bneventos_app/tabspages/eventosactivostabpage_page.dart';
-import 'package:bneventos_app/tabspages/eventosfuturostabpage_page.dart';
 import 'package:bneventos_app/tabspages/eventospasadostabpage_page.dart';
 import 'package:flutter/material.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
@@ -45,11 +44,6 @@ class _EventosBNPageState extends State<EventosBNPage> {
             backgroundColor: Colors.black,
           ),
           BottomNavigationBarItem(
-            label: 'Eventos Futuros',
-            icon: Icon(MdiIcons.giftOutline),
-            backgroundColor: Colors.black,
-          ),
-          BottomNavigationBarItem(
             label: 'Agregar Evento',
             icon: Icon(MdiIcons.clockIn),
             backgroundColor: Colors.black,
@@ -68,9 +62,6 @@ class _EventosBNPageState extends State<EventosBNPage> {
                 pagina = EventosActivosTabPage();
                 break;
               case 2:
-                pagina = EventosFuturosTabPage();
-                break;
-              case 3:
                 pagina = EventoAgregarTabPage()  ;
                 break;
             }
