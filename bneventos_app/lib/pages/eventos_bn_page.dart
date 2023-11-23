@@ -51,7 +51,7 @@ class _EventosBNPageState extends State<EventosBNPage> {
           ),
           BottomNavigationBarItem(
             label: 'Agregar Evento',
-            icon: Icon(MdiIcons.clockTimeElevenOutline),
+            icon: Icon(MdiIcons.clockIn),
             backgroundColor: Colors.black,
           ),
         ],
