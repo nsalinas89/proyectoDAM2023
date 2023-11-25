@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "185382577036",
+    "project_id": "ej4-login",
+    "storage_bucket": "ej4-login.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:185382577036:android:43e3be1102daf09207eca9",
+        "android_client_info": {
+          "package_name": "com.salinasnico.applogin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAsRsJFMozDcDBEAjJlgfEbzXGMGGizUw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
